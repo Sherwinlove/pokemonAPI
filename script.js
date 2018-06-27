@@ -1,6 +1,14 @@
 document.getElementById("random")
 .addEventListener('click', getRandomPokemon);
 
+document.getElementById("clear")
+.addEventListener('click', clearPokemon);
+
+
+function clearPokemon() {
+    
+}
+
 function getRandomPokemon() {
     var rand = Math.floor(Math.random() * 151) + 1;
     getPokemon(rand);
@@ -18,7 +26,7 @@ function getPokemon(id) {
 function renderPokemon(pokemon) {
     console.log(pokemon)
     var pkHeader = document.getElementById("pk-header");
-    var pkName = document.getElementById("pk-name");
+    // var pkName = document.getElementById("pk-name");
     var pkAbilities = document.getElementById("pk-abilities");
     var pkMoves = document.getElementById("pk-moves");
     
@@ -49,4 +57,7 @@ function renderPokemon(pokemon) {
         move.innerHTML = pokemon.moves[i].move.name;
         pkMoves.appendChild(move);
     }
+
+    
 }
+
