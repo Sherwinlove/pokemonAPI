@@ -1,0 +1,25 @@
+#random {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    
+}
+
+#clear {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    
+}

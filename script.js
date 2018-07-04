@@ -9,6 +9,14 @@ function clearPokemon() {
     
 }
 
+function clearPokemon () {
+    // var pokeList = document.getElementById("pk-container").innerHTML
+    // if (pokeList === '') {
+    //     alert ('clear')
+    // }
+    document.getElementById("pk-container").style.display = "none";
+}
+
 function getRandomPokemon() {
     var rand = Math.floor(Math.random() * 151) + 1;
     getPokemon(rand);
