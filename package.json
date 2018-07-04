@@ -1,0 +1,23 @@
+{
+  "name": "pokemonapi",
+  "version": "1.0.0",
+  "description": "Yeah.",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sherwinlove/pokemonAPI.git"
+  },
+  "author": "Sherwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sherwinlove/pokemonAPI/issues"
+  },
+  "homepage": "https://github.com/Sherwinlove/pokemonAPI#readme"
+}
